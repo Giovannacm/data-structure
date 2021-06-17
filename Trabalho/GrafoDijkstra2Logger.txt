@@ -1,0 +1,69 @@
+
+ [transformaTextoGrafo] Transformando o arquivo em matriz de adjacencia
+   [transformaTextoGrafo] Tipo do grafo: Grafo nao orientado
+   [transformaTextoGrafo] Numero de vertices: 10
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 1
+ [adicionarAresta] Adicionando a aresta 0 -> 1 de peso 60 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 2
+ [adicionarAresta] Adicionando a aresta 0 -> 2 de peso 54 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 3
+ [adicionarAresta] Adicionando a aresta 0 -> 3 de peso 42 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 3
+ [adicionarAresta] Adicionando a aresta 1 -> 3 de peso 71 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 5
+ [adicionarAresta] Adicionando a aresta 1 -> 5 de peso 29 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 3
+ [adicionarAresta] Adicionando a aresta 2 -> 3 de peso 56 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 4
+ [adicionarAresta] Adicionando a aresta 2 -> 4 de peso 67 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 4
+ [adicionarAresta] Adicionando a aresta 3 -> 4 de peso 26 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 5
+ [adicionarAresta] Adicionando a aresta 3 -> 5 de peso 52 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 6
+ [adicionarAresta] Adicionando a aresta 3 -> 6 de peso 87 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 6
+ [adicionarAresta] Adicionando a aresta 4 -> 6 de peso 70 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 8
+ [adicionarAresta] Adicionando a aresta 4 -> 8 de peso 73 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 5 -> 6
+ [adicionarAresta] Adicionando a aresta 5 -> 6 de peso 20 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 5 -> 7
+ [adicionarAresta] Adicionando a aresta 5 -> 7 de peso 25 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 6 -> 7
+ [adicionarAresta] Adicionando a aresta 6 -> 7 de peso 36 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 6 -> 8
+ [adicionarAresta] Adicionando a aresta 6 -> 8 de peso 59 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 6 -> 9
+ [adicionarAresta] Adicionando a aresta 6 -> 9 de peso 32 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 7 -> 9
+ [adicionarAresta] Adicionando a aresta 7 -> 9 de peso 25 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 8 -> 9
+ [adicionarAresta] Adicionando a aresta 8 -> 9 de peso 26 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 8 -> 9
+ [adicionarAresta] Adicionando a aresta 8 -> 9 de peso 26 no grafo.
+   [adicionarAresta] ERRO: aresta 8 -> 9 de peso 26 já existe no grafo.
+ [caminhoDijkstra] Caminho Dijkstra a partir do vértice: 0
+   [minimo] Minimo(Q): 0
+   [relaxa] (0, 1, 60)
+   [relaxa] (0, 2, 54)
+   [relaxa] (0, 3, 42)
+   [minimo] Minimo(Q): 3
+   [relaxa] (3, 4, 26)
+   [relaxa] (3, 5, 52)
+   [relaxa] (3, 6, 87)
+   [minimo] Minimo(Q): 2
+   [minimo] Minimo(Q): 1
+   [relaxa] (1, 5, 29)
+   [minimo] Minimo(Q): 4
+   [relaxa] (4, 8, 73)
+   [minimo] Minimo(Q): 5
+   [relaxa] (5, 6, 20)
+   [relaxa] (5, 7, 25)
+   [minimo] Minimo(Q): 6
+   [relaxa] (6, 9, 32)
+   [minimo] Minimo(Q): 7
+   [relaxa] (7, 9, 25)
+   [minimo] Minimo(Q): 9
+   [minimo] Minimo(Q): 8
+   [caminhoDijkstra] Escrevendo o resultado final do caminho em um arquivo.

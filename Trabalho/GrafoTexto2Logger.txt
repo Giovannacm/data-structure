@@ -1,0 +1,65 @@
+
+ [transformaTextoGrafo] Transformando o arquivo em matriz de adjacencia
+   [transformaTextoGrafo] Tipo do grafo: Dígrafo
+   [transformaTextoGrafo] Numero de vertices: 10
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 2
+ [adicionarAresta] Adicionando a aresta 0 -> 2 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 3
+ [adicionarAresta] Adicionando a aresta 0 -> 3 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 6
+ [adicionarAresta] Adicionando a aresta 0 -> 6 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 4
+ [adicionarAresta] Adicionando a aresta 1 -> 4 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 8
+ [adicionarAresta] Adicionando a aresta 1 -> 8 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 5
+ [adicionarAresta] Adicionando a aresta 2 -> 5 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 7
+ [adicionarAresta] Adicionando a aresta 3 -> 7 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 8
+ [adicionarAresta] Adicionando a aresta 3 -> 8 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 8
+ [adicionarAresta] Adicionando a aresta 4 -> 8 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 5 -> 6
+ [adicionarAresta] Adicionando a aresta 5 -> 6 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 6 -> 2
+ [adicionarAresta] Adicionando a aresta 6 -> 2 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 7 -> 9
+ [adicionarAresta] Adicionando a aresta 7 -> 9 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 8 -> 0
+ [adicionarAresta] Adicionando a aresta 8 -> 0 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 9 -> 7
+ [adicionarAresta] Adicionando a aresta 9 -> 7 de peso 1 no grafo.
+ [buscaEmProfundidade] Busca em profundidade a partir do vértice: 3
+   [visitaDfs] Visitando o vertice: 3
+   [visitaDfs] Visitando o vertice: 7
+   [visitaDfs] Visitando o vertice: 9
+   [visitaDfs] Visitando o vertice: 8
+   [visitaDfs] Visitando o vertice: 0
+   [visitaDfs] Visitando o vertice: 2
+   [visitaDfs] Visitando o vertice: 5
+   [visitaDfs] Visitando o vertice: 6
+   [visitaDfs] Visitando o vertice: 1
+   [visitaDfs] Visitando o vertice: 4
+   [buscaEmProfundidade] Escrevendo o resultado final da busca em um arquivo.
+ [buscaEmLargura] Busca em largura a partir do vértice: 3
+ [buscaEmLargura] Enfileirando o vertice: 3
+ [buscaEmLargura] Desenfileirando o vertice: 3
+ [buscaEmLargura] Enfileirando o vertice: 7
+ [buscaEmLargura] Enfileirando o vertice: 8
+ [buscaEmLargura] Desenfileirando o vertice: 7
+ [buscaEmLargura] Enfileirando o vertice: 9
+ [buscaEmLargura] Desenfileirando o vertice: 8
+ [buscaEmLargura] Enfileirando o vertice: 0
+ [buscaEmLargura] Desenfileirando o vertice: 9
+ [buscaEmLargura] Desenfileirando o vertice: 0
+ [buscaEmLargura] Enfileirando o vertice: 2
+ [buscaEmLargura] Enfileirando o vertice: 6
+ [buscaEmLargura] Desenfileirando o vertice: 2
+ [buscaEmLargura] Enfileirando o vertice: 5
+ [buscaEmLargura] Desenfileirando o vertice: 6
+ [buscaEmLargura] Desenfileirando o vertice: 5
+   [buscaEmLargura] Escrevendo o resultado final da busca em um arquivo.
+   [verificaPropriedades] Ordem: 10
+   [verificaPropriedades] Tamanho: 14
+   [verificaPropriedades] Não é um grafo conexo

@@ -1,0 +1,33 @@
+
+ [transformaTextoGrafo] Transformando o arquivo em matriz de adjacencia
+   [transformaTextoGrafo] Tipo do grafo: Dígrafo
+   [transformaTextoGrafo] Numero de vertices: 5
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 1
+ [adicionarAresta] Adicionando a aresta 0 -> 1 de peso 6 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 3
+ [adicionarAresta] Adicionando a aresta 0 -> 3 de peso 7 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 2
+ [adicionarAresta] Adicionando a aresta 1 -> 2 de peso 5 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 3
+ [adicionarAresta] Adicionando a aresta 1 -> 3 de peso 8 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 4
+ [adicionarAresta] Adicionando a aresta 1 -> 4 de peso -4 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 1
+ [adicionarAresta] Adicionando a aresta 2 -> 1 de peso -2 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 2
+ [adicionarAresta] Adicionando a aresta 3 -> 2 de peso -3 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 4
+ [adicionarAresta] Adicionando a aresta 3 -> 4 de peso 9 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 0
+ [adicionarAresta] Adicionando a aresta 4 -> 0 de peso 2 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 2
+ [adicionarAresta] Adicionando a aresta 4 -> 2 de peso 7 no grafo.
+ [caminhoBellmanFord] Caminho Bellman-Ford a partir do vértice: 0
+   [relaxa] (0, 1, 6)
+   [relaxa] (0, 3, 7)
+   [relaxa] (1, 2, 5)
+   [relaxa] (1, 4, -4)
+   [relaxa] (3, 2, -3)
+   [relaxa] (2, 1, -2)
+   [relaxa] (1, 4, -4)
+   [caminhoBellmanFord] Escrevendo o resultado final do caminho em um arquivo.

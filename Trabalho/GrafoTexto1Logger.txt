@@ -1,0 +1,35 @@
+
+ [transformaTextoGrafo] Transformando o arquivo em matriz de adjacencia
+   [transformaTextoGrafo] Tipo do grafo: Dígrafo
+   [transformaTextoGrafo] Numero de vertices: 5
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 2
+ [adicionarAresta] Adicionando a aresta 0 -> 2 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 3
+ [adicionarAresta] Adicionando a aresta 0 -> 3 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 0
+ [adicionarAresta] Adicionando a aresta 1 -> 0 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 1
+ [adicionarAresta] Adicionando a aresta 2 -> 1 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 3 -> 4
+ [adicionarAresta] Adicionando a aresta 3 -> 4 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 4 -> 0
+ [adicionarAresta] Adicionando a aresta 4 -> 0 de peso 1 no grafo.
+ [buscaEmProfundidade] Busca em profundidade a partir do vértice: 1
+   [visitaDfs] Visitando o vertice: 1
+   [visitaDfs] Visitando o vertice: 0
+   [visitaDfs] Visitando o vertice: 2
+   [visitaDfs] Visitando o vertice: 3
+   [visitaDfs] Visitando o vertice: 4
+   [buscaEmProfundidade] Escrevendo o resultado final da busca em um arquivo.
+ [buscaEmLargura] Busca em largura a partir do vértice: 1
+ [buscaEmLargura] Enfileirando o vertice: 1
+ [buscaEmLargura] Desenfileirando o vertice: 1
+ [buscaEmLargura] Enfileirando o vertice: 0
+ [buscaEmLargura] Desenfileirando o vertice: 0
+ [buscaEmLargura] Enfileirando o vertice: 2
+ [buscaEmLargura] Enfileirando o vertice: 3
+ [buscaEmLargura] Desenfileirando o vertice: 2
+ [buscaEmLargura] Desenfileirando o vertice: 3
+ [buscaEmLargura] Enfileirando o vertice: 4
+ [buscaEmLargura] Desenfileirando o vertice: 4
+   [buscaEmLargura] Escrevendo o resultado final da busca em um arquivo.

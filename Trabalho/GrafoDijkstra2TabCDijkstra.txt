@@ -1,0 +1,14 @@
+  TABELA: CAMINHO DIJKSTRA
+  ARQUIVO DO GRAFO: GrafoDijkstra2.txt
+  VERTICE RAIZ: 0
+  VERTICE  D  PI  Q  S
+     0     0  -1  -  X
+     1    60   0  -  X
+     2    54   0  -  X
+     3    42   0  -  X
+     4    68   3  -  X
+     5    89   1  -  X
+     6    109   5  -  X
+     7    114   5  -  X
+     8    141   4  -  X
+     9    139   7  -  X

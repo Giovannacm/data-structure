@@ -1,0 +1,16 @@
+
+ [transformaTextoGrafo] Transformando o arquivo em matriz de adjacencia
+   [transformaTextoGrafo] Tipo do grafo: Grafo nao orientado
+   [transformaTextoGrafo] Numero de vertices: 4
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 1
+ [adicionarAresta] Adicionando a aresta 0 -> 1 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 0 -> 2
+ [adicionarAresta] Adicionando a aresta 0 -> 2 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 1 -> 3
+ [adicionarAresta] Adicionando a aresta 1 -> 3 de peso 1 no grafo.
+   [transformaTextoGrafo] Leitura da aresta: 2 -> 3
+ [adicionarAresta] Adicionando a aresta 2 -> 3 de peso 1 no grafo.
+   [verificaPropriedades] Ordem: 4
+   [verificaPropriedades] Tamanho: 4
+   [verificaPropriedades] É um grafo simples
+   [verificaPropriedades] Não é um grafo completo

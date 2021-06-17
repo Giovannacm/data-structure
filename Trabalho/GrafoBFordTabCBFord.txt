@@ -1,0 +1,10 @@
+  TABELA: CAMINHO BELLMAN-FORD
+  ARQUIVO DO GRAFO: GrafoBFord.txt
+  VERTICE RAIZ: 0
+  VERTICE  D  PI
+     0     0  -1 
+     1     8   4 
+     2     4   0 
+     3     6   2 
+     4     6   2 
+     5    12   3 
