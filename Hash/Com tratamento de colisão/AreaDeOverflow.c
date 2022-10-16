@@ -1,4 +1,4 @@
-//Tratamento de colis„o utilisando lista encadeada estatica + area de overflow
+//Tratamento de colis√£o utilizando lista encadeada estatica + area de overflow
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -53,11 +53,11 @@ short inserir(struct tabelaHash *T, int elemento)
         T->Vet[pos].info = elemento;
     else    //Insere na atria de overflow
     {
-        if(T->Vet[pos].next==-1)    //N„o tem nenhum elemento na area de overflow
+        if(T->Vet[pos].next==-1)    //N√£o tem nenhum elemento na area de overflow
         {
             T->Vet[pos].next = T->disp;
         }
-        else                        //J· tem elemento na area de overflow
+        else                        //J√° tem elemento na area de overflow
         {
             for(p=T->Vet[pos].next ; T->Overf[p].next!=-1 ; p=T->Overf[p].next);
             T->Overf[p].next = T->disp;
